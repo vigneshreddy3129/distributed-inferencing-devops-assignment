@@ -167,10 +167,33 @@ Terraform files are located inside the terraform/ directory.
 ## Repository Structure
 ```text
 .
+distributed-inferencing-devops-assignment/
+│
 ├── README.md
+├── .gitignore
+│
 ├── screenshots/
+│   ├── EC2-instances.png
+│   ├── api-vm-interface.png
+│   ├── api-vm.png
+│   ├── caller-worker-logs.png
+│   ├── route-table.png
+│   ├── security-groups.png
+│   ├── subnet.png
+│   ├── worker-vm-interface.png
+│   └── worker-vm.png
+│
 ├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+│
 └── workers/
     ├── caller-worker/
+    │   └── src/
+    │       └── worker.ts
+    │
     └── inference_worker/
+        ├── inference_worker.py
+        └── requirements.txt
 ```
