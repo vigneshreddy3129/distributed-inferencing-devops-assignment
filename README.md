@@ -154,6 +154,16 @@ Model sharding/distributed inference would be implemented
 Object storage would host model artifacts
 Autoscaling inference pools would be added
 Token streaming optimizations would be implemented
+# Terraform
+
+Basic Terraform configuration is included for:
+- VPC
+- Public/private subnets
+- Internet Gateway
+- Route tables
+- Security groups
+
+Terraform files are located inside the terraform/ directory.
 ## Repository Structure
 ```text
 .
